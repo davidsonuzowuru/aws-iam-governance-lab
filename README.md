@@ -220,17 +220,10 @@ Confirmed CloudTrail captured the following event:
 ```text
 aws-iam-governance-lab/
 ├── README.md
+│
 ├── diagrams/
 │   ├── architecture-diagram.png
 │   └── access-model-diagram.png
-│
-├── screenshots/
-│   ├── organizations/
-│   ├── identity-center/
-│   ├── permission-sets/
-│   ├── assignments/
-│   ├── testing/
-│   └── cloudtrail/
 │
 ├── docs/
 │   ├── architecture.md
@@ -238,8 +231,17 @@ aws-iam-governance-lab/
 │   ├── security-decisions.md
 │   └── audit-validation.md
 │
-└── policies/
-    └── developer-dev-access-policy.json
+├── policies/
+│   └── developer-dev-access-policy.json
+│
+└── screenshots/
+    ├── organizations/
+    ├── identity-center/
+    ├── permission-sets/
+    ├── assignments/
+    ├── testing/
+    └── cloudtrail/
+
 ```
 
 ---
